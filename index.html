@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- title -->
+    <title>Charles's Olympic Judging Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- User can input 8 judge score values, and push a button to calculate 
+            the average of the 6 middle values, which displays on the screen -->
+        <h1>Charles's Olympic Judging Calculator</h1>
+        <p>In this program, you'll enter the judge's scores from 8 participating countries.
+            The program will remove the highest and the lowest scores and keep the remaining
+            six. The athlete's score will be averaged based on the remaining 6 values.
+        </p>
+        <form action="javascript:calculateJudgeScoresAverage()" name="judgeForm">
+            Country A judge: <input type="text" name="aJudge">
+            <p></p>
+            Country B judge: <input type="text" name="bJudge">
+            <p></p>
+            Country C judge: <input type="text" name="cJudge">
+            <p></p>
+            Country D judge: <input type="text" name="dJudge">
+            <p></p>
+            Country E judge: <input type="text" name="eJudge">
+            <p></p>
+            Country F judge: <input type="text" name="fJudge">
+            <p></p>
+            Country G judge: <input type="text" name="gJudge">
+            <p></p>
+            Country H judge: <input type="text" name="hJudge">
+            <p></p>
+            <input type="submit" value="Compute Score">
+        </form>
+        <p></p>
+        <div id="results">Enter the scores of all eight judges to determine their unbiased average score.</div><br>
+
+        <!--footer with hyperlink, year, and name-->
+        <footer>
+            <br>All Photos taken from <a href="https://www.unsplash.com">Unsplash</a>
+            <br>&copy;2021 Charles Owens
+        </footer>
+    </div>
+</body>
+
+</html>

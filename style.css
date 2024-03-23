@@ -1,0 +1,40 @@
+/* background image of circuit board with sans-serif font */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("image/array.jpg");
+    background-size: 1550px 850px;
+  }
+  
+  /* increase h1 font size, center, purple, with black shadow */
+  h1 {
+    font-size: 300%;
+    color: rgb(117, 23, 160);
+    text-shadow: 1px 1px black;
+    text-align: center;
+  }
+  
+  /* main section has white color, black border, centered */
+  .main {
+    margin: auto;
+    width: 1200px;
+    border: 3px solid black;
+    box-shadow: 5px 10px;
+    background: #ffffff;
+    padding: 10px;
+    height: auto;
+  }
+  
+  /* footer is centered and relatively fixed on bottom of main section */
+  footer {
+    clear: both;
+    font-size: 0.75em;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    margin: 3px;
+  }
+  
+  /* footer hyperlink is black */
+  a {
+    color: black;
+  }
